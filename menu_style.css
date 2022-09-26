@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-image: url("img_menu.jpg");
+    
+}
+
+#Mn_interactive{
+    width: 0%;
+}
+
+.content button{
+    background-color: rgb(0, 255, 251);
+    cursor: pointer;
+    padding: 1em 2em;
+    margin: 0.7em;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.bt-Interactive{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: green;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.bt-Interactive i {
+    font-size: 20px;
+    color: white;
+}
+
+.overlay {
+    /* height: 100%;
+    width: 100%; */
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 20;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.content {
+    position: center;
+    top: 25%;
+    width: 25%;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+.overlay  a{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+    display: flex;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color: white;
+}
+
+.overlay .closeMenu{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 40px;
+}
+
